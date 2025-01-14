@@ -1,5 +1,5 @@
+#This is the code for Experiment 02, Vishnuthirtha Sandur Huliraj
 import os
-
 def process_file(file_path, is_coincidence):
     with open(file_path, 'r') as file:
         lines = file.readlines()[5:]
@@ -58,5 +58,5 @@ def main(folder_path):
     print(f"Averaged Signal Counts: {avg_signal_counts}")
 
 if __name__ == "__main__":
-    folder_path = ("C:/Users/vishn/OneDrive/Desktop/FSU Jena/University of Jena/1st Sem/Quantum Laboratory/Reports/Lab 06 SPDC/EQT WS24/EXP 2/250uw")
+    folder_path = ("C:/Users/vishn/OneDrive/Desktop/FSU Jena/University of Jena/1st Sem/Quantum Laboratory/Reports/Lab 06 SPDC/EQT WS24/EXP 2/250uw") #I change the folder name according to my requirement
     main(folder_path)
